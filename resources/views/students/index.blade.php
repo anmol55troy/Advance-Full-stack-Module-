@@ -28,7 +28,7 @@
                         <td>{{ $student->email }}</td>
                         <td>{{ $student->phone }}</td>
                         <td>{{ $student->date_of_birth->format('d M Y') }}</td>
-                        <td class="text-end">
+                        <td class="text-end text-nowrap">
                             <a href="{{ route('students.show', $student) }}" class="btn btn-sm btn-info">View</a>
                             <a href="{{ route('students.edit', $student) }}" class="btn btn-sm btn-warning">Edit</a>
                             

@@ -4,7 +4,7 @@
             "command": "wsl.exe",
             "args": [
                 "/usr/bin/php8.3",
-                "/home/acer/workshop1fullstack/workshop1/artisan",
+                "/home/acer/Advancefullstack-sem5/workshop1/artisan",
                 "boost:mcp"
             ]
         }
