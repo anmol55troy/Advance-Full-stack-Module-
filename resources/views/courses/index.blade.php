@@ -34,7 +34,7 @@
                                 {{ $course->is_active ? 'Active' : 'Inactive' }}
                             </span>
                         </td>
-                        <td class="text-end">
+                        <td class="text-end text-nowrap">
                             <a href="{{ route('courses.show', $course) }}" class="btn btn-sm btn-info">View</a>
                             <a href="{{ route('courses.edit', $course) }}" class="btn btn-sm btn-warning">Edit</a>
                             
